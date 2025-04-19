@@ -93,11 +93,11 @@
 .carousel-caption {
   top: 50%;
   transform: translateY(-50%);
-  bottom: auto; /* override Bootstrap default */
+  bottom: auto;
 }
 
 .carousel-caption h5 {
-  font-size: 52px; /* or adjust to your liking */
+  font-size: 52px;
   font-weight: 700;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
 }
@@ -111,9 +111,9 @@
 .carousel-indicators [data-bs-target] {
   width: 12px !important;
   height: 12px !important;
-  border-radius: 100% !important; /* Makes the shape circular */
-  background-color: #333; /* Dark dot color (customizable) */
-  opacity: 0.5; /* Slightly transparent by default */
+  border-radius: 100% !important;
+  background-color: #333;
+  opacity: 0.5;
   margin: 0 6px;
   border: none;
   transition: opacity 0.3s, background-color 0.3s;
@@ -121,7 +121,7 @@
 
 .carousel-indicators .active {
   opacity: 1;
-  background-color: #008000 !important; /* Active dot color (your brand color) */
+  background-color: #008000 !important;
 }
 
 .btn-book-now {
@@ -193,7 +193,7 @@
 }
 
 .service-card:hover .service-img {
-  transform: scale(1.05); /* Zoom in the image */
+  transform: scale(1.05);
 }
 
 .service-img {
@@ -227,9 +227,8 @@
   margin-top: 10px;
 }
 
-/* Footer Main Styles */
 .footer {
-  background-color: #1c1c1c; /* Dark footer background */
+  background-color: #1c1c1c;
 }
 
 .footer-item {

@@ -59,7 +59,6 @@ const Hero: React.FC = () => {
 
     animateCaptions();
 
-    // Optional: re-animate on slide change
     const carousel = document.getElementById("carouselExampleCaptions");
     carousel?.addEventListener("slid.bs.carousel", animateCaptions);
 

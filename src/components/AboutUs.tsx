@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import distributionImage from "../assets/c3.jpg"; // Update with the correct image path
+import distributionImage from "../assets/c3.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -10,11 +10,8 @@ const About: React.FC = () => {
 
   useEffect(() => {
     if (sectionRef.current) {
-      // Animate the text and image
       const elements =
         sectionRef.current.querySelectorAll(".animate-on-scroll");
-
-      // For text, fade in and slide up
       gsap.fromTo(
         elements,
         { opacity: 0, y: 80, scale: 0.9 },
@@ -33,7 +30,6 @@ const About: React.FC = () => {
         }
       );
 
-      // For image, fade in and zoom in
       gsap.fromTo(
         ".about-image",
         { opacity: 0, scale: 0.8 },
@@ -61,7 +57,6 @@ const About: React.FC = () => {
     >
       <div className="container">
         <div className="row gy-4 gy-md-5 gy-lg-0 align-items-center">
-          {/* Content First for Smaller Screens */}
           <div className="col-12 col-lg-6 col-xl-7 animate-on-scroll order-1 order-lg-2">
             <h2
               className="mb-4 fw-bold heading fs-48 Recoleta"

@@ -9,7 +9,6 @@ import service5 from "../assets/service5.jpg";
 import service6 from "../assets/service6.jpg";
 import service7 from "../assets/service7.jpg";
 
-// Register GSAP ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
 const Services: React.FC = () => {
@@ -48,7 +47,7 @@ const Services: React.FC = () => {
 
   useEffect(() => {
     // GSAP animation for scroll trigger
-    serviceRefs.current.forEach((service, index) => {
+    serviceRefs.current.forEach((service) => {
       if (service) {
         gsap.fromTo(
           service,

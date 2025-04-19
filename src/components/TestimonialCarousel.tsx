@@ -14,7 +14,7 @@ const testimonials: CustomerReview[] = [
     name: "Anna Deynah",
     role: "UX Designer",
     quote:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.",
+      "I was impressed by the attention to detail in their cleaning services. My home has never felt cleaner!",
     avatar:
       "https://thumbs.dreamstime.com/b/vertical-portrait-happy-young-business-lady-indian-ethnicity-standing-confident-pose-looking-camera-profile-picture-339154738.jpg",
     rating: 5,
@@ -23,7 +23,7 @@ const testimonials: CustomerReview[] = [
     name: "Ravi Kumar Patel",
     role: "Operations Manager",
     quote:
-      "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.",
+      "Their AC maintenance service is top-notch. My AC is running smoother than ever before.",
     avatar:
       "https://media.istockphoto.com/id/1333001232/photo/portrait-of-indian-man-face-outdoors-looking-at-camera.jpg?s=612x612&w=0&k=20&c=Ne-OChwAEFF5U7yxOwUUqA8ELrJ1WCYho4RkW9v360I=",
     rating: 4,
@@ -32,7 +32,7 @@ const testimonials: CustomerReview[] = [
     name: "Maria Kate",
     role: "Photographer",
     quote:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.",
+      "I was amazed by the thoroughness of their deep cleaning service. My home sparkles now!",
     avatar: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp",
     rating: 3,
   },
@@ -40,7 +40,7 @@ const testimonials: CustomerReview[] = [
     name: "Sophia Green",
     role: "Product Manager",
     quote:
-      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.",
+      "Their move-in cleaning service exceeded my expectations. The place was spotless!",
     avatar: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(7).webp",
     rating: 4,
   },
@@ -48,7 +48,7 @@ const testimonials: CustomerReview[] = [
     name: "Saad Qureshi",
     role: "Software Engineer",
     quote:
-      "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos.",
+      "The AC repair service was prompt and efficient. I highly recommend them!",
     avatar:
       "https://t4.ftcdn.net/jpg/06/54/65/25/360_F_654652516_kgbJSV288M8r3YHqowlmXBg42YLDhlwF.jpg",
     rating: 5,
@@ -57,7 +57,7 @@ const testimonials: CustomerReview[] = [
     name: "Olivia Smith",
     role: "Content Writer",
     quote:
-      "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.",
+      "Their office cleaning service is reliable and consistent. Our workspace has never been cleaner!",
     avatar:
       "https://st2.depositphotos.com/1037987/42002/i/450/depositphotos_420021494-stock-photo-portrait-female-owner-gift-store.jpg",
     rating: 3,
@@ -154,7 +154,6 @@ const TestimonialCarousel: React.FC = () => {
           </div>
         </div>
 
-        {/* Controls */}
         <button
           className="carousel-control-prev position-absolute top-50 start-0 translate-middle-y"
           type="button"
