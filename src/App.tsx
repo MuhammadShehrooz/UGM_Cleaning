@@ -6,7 +6,6 @@ import WhyUs from "./components/whyUs";
 import TestimonialCarousel from "./components/TestimonialCarousel";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
-import Page404 from "./components/Page404";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <TestimonialCarousel />
       <Services />
       <Footer />
-      {/* <Page404 /> */}
     </>
   );
 }

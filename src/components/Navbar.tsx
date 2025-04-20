@@ -25,7 +25,7 @@ const Navbar = () => {
         }`}
       >
         <div className="container">
-          <img src={logo} alt="Serene Logo" width={320} draggable="false" />
+          <img src={logo} alt="Serene Logo" width={250} draggable="false" />
 
           <button
             className="navbar-toggler p-1 ms-auto"
@@ -56,7 +56,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link mx-2" href="#whyus-section">
+                <a className="nav-link mx-2 text-nowrap" href="#whyus-section">
                   Why Us?
                 </a>
               </li>
@@ -73,7 +73,7 @@ const Navbar = () => {
 
               <a
                 href="https://wa.me/0567301136?text=Hi%2C%20I%27m%20interested%20in%20your%20cleaning%20services"
-                className="navbar-book-now fw-bold"
+                className="navbar-book-now fw-bold mb-lg-0 mb-2"
               >
                 Book Now
               </a>
